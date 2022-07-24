@@ -73,17 +73,20 @@ Eigen::Matrix4f get_projection_matrix(float eye_fov, float aspect_ratio,
     float l = -r;//同上 right正方向 left负方向
 
     Eigen::Matrix4f trans, scale,upend;
+    //到原点
+    trans << 1, 0, 0, -(r + l) / 2,
+        0, 1, 0, -(t + b) / 2,
+        0, 0, 1, -(zNear + zFar) / 2,
+        0, 0, 0, 1;
+
+
     //压缩到-1,1的矩阵
     scale << 2 / (r - l), 0, 0, 0,
         0, 2 / (t - b), 0, 0,
         0, 0, 2 / (zNear - zFar), 0,
         0, 0, 0, 1;
 
-    //到原点
-    trans << 1, 0, 0, -(r + l) / 2,
-        0, 1, 0, -(t + b) / 2,
-        0, 0, 1, -(zNear + zFar) / 2,
-        0, 0, 0, 1;
+
 
     
     //内容上下颠倒 坐标系变换下
@@ -93,7 +96,7 @@ Eigen::Matrix4f get_projection_matrix(float eye_fov, float aspect_ratio,
     0,0,0,1;
 
     
-    projection = upend*trans*scale*ortho*projection;
+    projection = upend*scale*trans*ortho*projection;
     return projection;
     // TODO: Implement this function
     // Create the projection matrix for the given parameters.
