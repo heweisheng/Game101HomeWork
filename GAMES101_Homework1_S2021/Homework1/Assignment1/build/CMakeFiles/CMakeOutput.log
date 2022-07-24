@@ -1,0 +1,381 @@
+The system is: Windows - 10.0.19043 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+���� .NET Framework �� Microsoft (R) ��������汾 15.9.21+g9802d43bc3
+��Ȩ����(C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2022/7/17 17:57:58��
+�ڵ� 1 �ϵ���Ŀ��i:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\3.12.18081601-MSVC_2\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+  ���ڴ���Ŀ¼��Debug\CompilerIdC.tlog\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdC.tlog\unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> i:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\3.12.18081601-MSVC_2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdC.tlog\unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��i:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\3.12.18081601-MSVC_2\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:00.72
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "i:/GAMES101_Homework_S2021/GAMES101_Homework1_S2021/Homework1/Assignment1/build/CMakeFiles/3.12.18081601-MSVC_2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+���� .NET Framework �� Microsoft (R) ��������汾 15.9.21+g9802d43bc3
+��Ȩ����(C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2022/7/17 17:57:58��
+�ڵ� 1 �ϵ���Ŀ��i:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\3.12.18081601-MSVC_2\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+  ���ڴ���Ŀ¼��Debug\CompilerIdCXX.tlog\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdCXX.tlog\unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> i:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\3.12.18081601-MSVC_2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdCXX.tlog\unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��i:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\3.12.18081601-MSVC_2\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:00.42
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "i:/GAMES101_Homework_S2021/GAMES101_Homework1_S2021/Homework1/Assignment1/build/CMakeFiles/3.12.18081601-MSVC_2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: i:/GAMES101_Homework_S2021/GAMES101_Homework1_S2021/Homework1/Assignment1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_644f5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2022/7/17 17:57:59。
+节点 1 上的项目“i:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\cmTC_644f5.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_644f5.dir\Debug\”。
+  正在创建目录“I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_644f5.dir\Debug\cmTC_644f5.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_644f5.dir\Debug\cmTC_644f5.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_644f5.dir\Debug\\" /Fd"cmTC_644f5.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_644f5.dir\Debug\\" /Fd"cmTC_644f5.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  testCCompiler.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\Debug\cmTC_644f5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"I:/GAMES101_Homework_S2021/GAMES101_Homework1_S2021/Homework1/Assignment1/build/CMakeFiles/CMakeTmp/Debug/cmTC_644f5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:/GAMES101_Homework_S2021/GAMES101_Homework1_S2021/Homework1/Assignment1/build/CMakeFiles/CMakeTmp/Debug/cmTC_644f5.lib" /MACHINE:X64  /machine:x64 cmTC_644f5.dir\Debug\testCCompiler.obj
+  cmTC_644f5.vcxproj -> I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\Debug\cmTC_644f5.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_644f5.dir\Debug\cmTC_644f5.tlog\unsuccessfulbuild”。
+  正在对“cmTC_644f5.dir\Debug\cmTC_644f5.tlog\cmTC_644f5.lastbuildstate”执行 Touch 任务。
+已完成生成项目“i:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\cmTC_644f5.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.58
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: i:/GAMES101_Homework_S2021/GAMES101_Homework1_S2021/Homework1/Assignment1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_02cfa.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2022/7/17 17:58:00。
+节点 1 上的项目“i:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\cmTC_02cfa.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_02cfa.dir\Debug\”。
+  正在创建目录“I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_02cfa.dir\Debug\cmTC_02cfa.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_02cfa.dir\Debug\cmTC_02cfa.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02cfa.dir\Debug\\" /Fd"cmTC_02cfa.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02cfa.dir\Debug\\" /Fd"cmTC_02cfa.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\Debug\cmTC_02cfa.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"I:/GAMES101_Homework_S2021/GAMES101_Homework1_S2021/Homework1/Assignment1/build/CMakeFiles/CMakeTmp/Debug/cmTC_02cfa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:/GAMES101_Homework_S2021/GAMES101_Homework1_S2021/Homework1/Assignment1/build/CMakeFiles/CMakeTmp/Debug/cmTC_02cfa.lib" /MACHINE:X64  /machine:x64 cmTC_02cfa.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_02cfa.vcxproj -> I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\Debug\cmTC_02cfa.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_02cfa.dir\Debug\cmTC_02cfa.tlog\unsuccessfulbuild”。
+  正在对“cmTC_02cfa.dir\Debug\cmTC_02cfa.tlog\cmTC_02cfa.lastbuildstate”执行 Touch 任务。
+已完成生成项目“i:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\cmTC_02cfa.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.56
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: i:/GAMES101_Homework_S2021/GAMES101_Homework1_S2021/Homework1/Assignment1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_f87bd.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2022/7/17 17:58:00。
+节点 1 上的项目“i:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\cmTC_f87bd.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_f87bd.dir\Debug\”。
+  正在创建目录“I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_f87bd.dir\Debug\cmTC_f87bd.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_f87bd.dir\Debug\cmTC_f87bd.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f87bd.dir\Debug\\" /Fd"cmTC_f87bd.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\feature_tests.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f87bd.dir\Debug\\" /Fd"cmTC_f87bd.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\feature_tests.c
+  feature_tests.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\Debug\cmTC_f87bd.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"I:/GAMES101_Homework_S2021/GAMES101_Homework1_S2021/Homework1/Assignment1/build/CMakeFiles/CMakeTmp/Debug/cmTC_f87bd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:/GAMES101_Homework_S2021/GAMES101_Homework1_S2021/Homework1/Assignment1/build/CMakeFiles/CMakeTmp/Debug/cmTC_f87bd.lib" /MACHINE:X64  /machine:x64 cmTC_f87bd.dir\Debug\feature_tests.obj
+  cmTC_f87bd.vcxproj -> I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\Debug\cmTC_f87bd.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_f87bd.dir\Debug\cmTC_f87bd.tlog\unsuccessfulbuild”。
+  正在对“cmTC_f87bd.dir\Debug\cmTC_f87bd.tlog\cmTC_f87bd.lastbuildstate”执行 Touch 任务。
+已完成生成项目“i:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\cmTC_f87bd.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.60
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: i:/GAMES101_Homework_S2021/GAMES101_Homework1_S2021/Homework1/Assignment1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_184cb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2022/7/17 17:58:01。
+节点 1 上的项目“i:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\cmTC_184cb.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_184cb.dir\Debug\”。
+  正在创建目录“I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_184cb.dir\Debug\cmTC_184cb.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_184cb.dir\Debug\cmTC_184cb.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_184cb.dir\Debug\\" /Fd"cmTC_184cb.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_184cb.dir\Debug\\" /Fd"cmTC_184cb.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  testCXXCompiler.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\Debug\cmTC_184cb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"I:/GAMES101_Homework_S2021/GAMES101_Homework1_S2021/Homework1/Assignment1/build/CMakeFiles/CMakeTmp/Debug/cmTC_184cb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:/GAMES101_Homework_S2021/GAMES101_Homework1_S2021/Homework1/Assignment1/build/CMakeFiles/CMakeTmp/Debug/cmTC_184cb.lib" /MACHINE:X64  /machine:x64 cmTC_184cb.dir\Debug\testCXXCompiler.obj
+  cmTC_184cb.vcxproj -> I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\Debug\cmTC_184cb.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_184cb.dir\Debug\cmTC_184cb.tlog\unsuccessfulbuild”。
+  正在对“cmTC_184cb.dir\Debug\cmTC_184cb.tlog\cmTC_184cb.lastbuildstate”执行 Touch 任务。
+已完成生成项目“i:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\cmTC_184cb.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.56
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: i:/GAMES101_Homework_S2021/GAMES101_Homework1_S2021/Homework1/Assignment1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_ae043.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2022/7/17 17:58:02。
+节点 1 上的项目“i:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\cmTC_ae043.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_ae043.dir\Debug\”。
+  正在创建目录“I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_ae043.dir\Debug\cmTC_ae043.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_ae043.dir\Debug\cmTC_ae043.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ae043.dir\Debug\\" /Fd"cmTC_ae043.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ae043.dir\Debug\\" /Fd"cmTC_ae043.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\Debug\cmTC_ae043.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"I:/GAMES101_Homework_S2021/GAMES101_Homework1_S2021/Homework1/Assignment1/build/CMakeFiles/CMakeTmp/Debug/cmTC_ae043.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:/GAMES101_Homework_S2021/GAMES101_Homework1_S2021/Homework1/Assignment1/build/CMakeFiles/CMakeTmp/Debug/cmTC_ae043.lib" /MACHINE:X64  /machine:x64 cmTC_ae043.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_ae043.vcxproj -> I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\Debug\cmTC_ae043.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_ae043.dir\Debug\cmTC_ae043.tlog\unsuccessfulbuild”。
+  正在对“cmTC_ae043.dir\Debug\cmTC_ae043.tlog\cmTC_ae043.lastbuildstate”执行 Touch 任务。
+已完成生成项目“i:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\cmTC_ae043.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.53
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: i:/GAMES101_Homework_S2021/GAMES101_Homework1_S2021/Homework1/Assignment1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_7a717.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2022/7/17 17:58:02。
+节点 1 上的项目“i:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\cmTC_7a717.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_7a717.dir\Debug\”。
+  正在创建目录“I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_7a717.dir\Debug\cmTC_7a717.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_7a717.dir\Debug\cmTC_7a717.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7a717.dir\Debug\\" /Fd"cmTC_7a717.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\feature_tests.cxx
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7a717.dir\Debug\\" /Fd"cmTC_7a717.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\feature_tests.cxx
+  feature_tests.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\Debug\cmTC_7a717.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"I:/GAMES101_Homework_S2021/GAMES101_Homework1_S2021/Homework1/Assignment1/build/CMakeFiles/CMakeTmp/Debug/cmTC_7a717.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:/GAMES101_Homework_S2021/GAMES101_Homework1_S2021/Homework1/Assignment1/build/CMakeFiles/CMakeTmp/Debug/cmTC_7a717.lib" /MACHINE:X64  /machine:x64 cmTC_7a717.dir\Debug\feature_tests.obj
+  cmTC_7a717.vcxproj -> I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\Debug\cmTC_7a717.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_7a717.dir\Debug\cmTC_7a717.tlog\unsuccessfulbuild”。
+  正在对“cmTC_7a717.dir\Debug\cmTC_7a717.tlog\cmTC_7a717.lastbuildstate”执行 Touch 任务。
+已完成生成项目“i:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\build\CMakeFiles\CMakeTmp\cmTC_7a717.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.61
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates

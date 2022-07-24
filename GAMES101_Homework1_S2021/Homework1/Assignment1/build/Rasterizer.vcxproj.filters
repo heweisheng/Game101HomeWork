@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\rasterizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\Triangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\rasterizer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\Triangle.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\GAMES101_Homework_S2021\GAMES101_Homework1_S2021\Homework1\Assignment1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C6CEA5B4-D421-3075-80DD-6FE0D1C078D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C08A5834-24CA-3F3C-9D8A-5230F18D32DB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
