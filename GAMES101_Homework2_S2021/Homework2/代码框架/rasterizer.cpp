@@ -9,8 +9,8 @@
 #include <opencv2/opencv.hpp>
 #include <math.h>
 //超采样抗锯齿
-#define MSAAW 2.0f
-#define MSAAH 2.0f 
+#define MSAAW 4.0f
+#define MSAAH 4.0f 
 
 rst::pos_buf_id rst::rasterizer::load_positions(const std::vector<Eigen::Vector3f> &positions)
 {
@@ -161,14 +161,17 @@ void rst::rasterizer::rasterize_triangle(const Triangle& t) {
     {
         for(int y=start.y();y<end.y();y++)
         {
-            int draw=0;
+
             //计算一个像素绘制的内容 这里可以提取成函数
+            Eigen::Vector3f drawcolor={0.0,0.0,0.0};
             for(int i=0;i<MSAAW;i++)
             {
                 for(int j=0;j<MSAAW;j++)
                 {
+                    auto ind = (y * MSAAH + j)* width * MSAAW + x * MSAAW + i  ;    
                     if(!insideTriangle(x + i* 1.0f/MSAAW,y+ j *1.0f/MSAAH,&pt[0]))
                     {
+                        drawcolor+=frame_bufcache[ind];
                         continue;
                     }
                     //插值算法下面已经给出，直接使用
@@ -176,28 +179,23 @@ void rst::rasterizer::rasterize_triangle(const Triangle& t) {
                     float w_reciprocal = 1.0/(alpha / v[0].w() + beta / v[1].w() + gamma / v[2].w());
                     float z_interpolated = alpha * v[0].z() / v[0].w() + beta * v[1].z() / v[1].w() + gamma * v[2].z() / v[2].w();
                     z_interpolated *= w_reciprocal;
-                    //把深度图需要一起抗锯齿
-                    auto ind = (y * MSAAH + j)* width * MSAAW + x * MSAAW + i  ;                    
+                    //深度图需要一起抗锯齿
+                                    
                     if(depth_buf[ind]>z_interpolated)//深度结果是负数 初始化是无穷大 那值越小权重越大
                     {
                         depth_buf[ind]=z_interpolated;
-                        draw++;
-                        
+                        frame_bufcache[ind]=color;
+                        drawcolor+=color;
+                    }else{
+                        drawcolor+=frame_bufcache[ind];
                     }
                 }
             }
-            if(draw)
-            {
-                Eigen::Vector3f drawcolor = 
-                {
-                    color.x()*draw/MSAAW/MSAAH,
-                    color.y()*draw/MSAAW/MSAAH,
-                    color.z()*draw/MSAAW/MSAAH
-                };
 
-                Eigen::Vector3f drawpoint(x,y,1.0);
-                set_pixel(drawpoint,drawcolor);
-            }
+            drawcolor={drawcolor.x()/MSAAW/MSAAH,drawcolor.y()/MSAAW/MSAAH,drawcolor.z()/MSAAW/MSAAH};
+            Eigen::Vector3f drawpoint(x,y,1.0);
+            set_pixel(drawpoint,drawcolor);
+            
         }
     }
     // TODO : Find out the bounding box of current triangle.
@@ -232,6 +230,7 @@ void rst::rasterizer::clear(rst::Buffers buff)
     if ((buff & rst::Buffers::Color) == rst::Buffers::Color)
     {
         std::fill(frame_buf.begin(), frame_buf.end(), Eigen::Vector3f{0, 0, 0});
+        std::fill(frame_bufcache.begin(),frame_bufcache.end(),Eigen::Vector3f{0,0,0});
     }
     if ((buff & rst::Buffers::Depth) == rst::Buffers::Depth)
     {
@@ -242,6 +241,7 @@ void rst::rasterizer::clear(rst::Buffers buff)
 rst::rasterizer::rasterizer(int w, int h) : width(w), height(h)
 {
     frame_buf.resize(w * h);
+    frame_bufcache.resize( w * h * MSAAW*MSAAH);
     //改成超采样
     depth_buf.resize(w * h * MSAAW*MSAAH);
 }
