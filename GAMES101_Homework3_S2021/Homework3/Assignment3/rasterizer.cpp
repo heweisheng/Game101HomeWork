@@ -302,12 +302,11 @@ void rst::rasterizer::rasterize_triangle(const Triangle &t, const std::array<Eig
         for (int y = start.y(); y < end.y() + 1; y++)
         {
             auto ind = get_index(x, y);
-            if (!insideTriangle(x, y, t.v))
+            if (!insideTriangle(x, y, t.v)||x>width||y>height)
             {
 
                 continue;
             }
-
             //插值算法下面已经给出，直接使用
             auto [alpha, beta, gamma] = computeBarycentric2D(x, y, t.v);
             float Z = 1.0 / (alpha / t.v[0].w() + beta / t.v[1].w() + gamma / t.v[2].w());
