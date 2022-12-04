@@ -188,6 +188,7 @@ void rst::rasterizer::draw(std::vector<Triangle *> &TriangleList)
 
         std::array<Eigen::Vector3f, 3> viewspace_pos;
 
+        //实际的视图点不会受变换产生影响 mm没有使用透视变换
         std::transform(mm.begin(), mm.end(), viewspace_pos.begin(), [](auto &v)
                        { return v.template head<3>(); });
 
